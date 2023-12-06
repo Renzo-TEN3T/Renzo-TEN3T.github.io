@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <!--CHATBOT-->
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hola 👋<br>Cómo te puedo ayudar hoy? <br>Escríbeme tus dudas sobre cualquier cosa 😊 </p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+
+    <header class="header">
+      <img class="bg" src="img/bg.png" alt="" />
+
+      <div class="menu container">
+       <!--- <a href="#" class="logo">Cable Sur</a>-->
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="img/menu.png" class="menu-icono" alt=""/></label>
+        <nav class="navbar">
+         <!--
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          -->
+        </nav>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-txt">
+          <h1><span>CABLESUR</span> servicios de calidad y en tiempo real</h1>
+          <p>
+            Somos una destacada empresa peruana de telecomunicaciones comprometida con proporcionar servicios de vanguardia y conectividad confiable a hogares y empresas en todo el país. Con un enfoque en la innovación tecnológica, llevamos la experiencia de entretenimiento y comunicación a un nivel superior a través de nuestra red de fibra óptica de última generación
+          </p>
+          <a href="#" class="btn-1">Información</a>
+        </div>
+        <div class="header-img">
+          <img class="lap" src="img/lap.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main class="services container">
+      <a href="#" class="info">Tiempo real<a>
+      <h2>Nuestro Servicios<h2>
+
+      <div class="services-content">
+
+        <div class="services-txt">
+          
+          <div class="services-card">
+            <img src="img/1.svg" alt="">
+            <div class="card-txt">
+              <h3>CABLE</h3>
+              <p>Descubre el máximo entretenimiento con Cable Sur. 
+                Disfruta de una variedad excepcional de canales en alta definición, 
+                desde locales hasta internacionales. Tu experiencia televisiva nunca ha sido tan emocionante.</p>
+              <a href="#">Información</a>
+            </div>
+          </div>
+          <div class="services-card">
+            <img src="img/2.svg" alt="">
+            <div class="card-txt">
+              <h3>INTERNET FIBRA ÓPTICA</h3>
+              <p>Experimenta la velocidad de vanguardia con el internet de fibra óptica de Cable Sur. 
+                Navega, transmite en 4K, juega en línea y trabaja desde casa sin interrupciones, 
+                gracias a velocidades ultrarrápidas y una conexión estable. Confiable y de baja latencia, nuestra fibra óptica asegura experiencias en línea fluidas y sin complicaciones.</p>
+              <a href="#">Información</a>
+            </div>
+          </div>
+          <div class="services-card">
+            <img src="img/3.svg" alt="">
+            <div class="card-txt">
+              <h3>¿POR QUÉ FIBRA ÓPTICA?</h3>
+              <p>Descubre la revolución en la conexión a internet con la fibra óptica de Cable Sur. Experimenta hasta un 300% más de velocidad de descarga y carga, una estabilidad del 99.9%, y una reducción del 40% en la latencia para una navegación y juegos en línea más rápidos. 
+                ¡Conéctate a la excelencia con nuestra fibra óptica!</p>
+              <a href="#">Información</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services-img">
+          <img src="img/woman.png" alt="">
+        </div>
+
+      </div>
+    </main>
+
+    <section class="usuarios">
+
+      <img class="wave-1" src="img/wave1.svg" alt="">
+      <img class="wave-2" src="img/wave2.svg" alt="">
+      
+      <div class="usuario-txt container">
+        <a href="#" class="info">Tiempo real</a>
+        <h2>Nuestros usuarios</h2>
+        <p>
+          Contamos con la confianza de más de 1,000 peruanos 
+        </p>
+        <h3>100,000</h3>
+      </div>
+    
+    </section>
+
+    <section class="app container">
+      
+      <div class="app-1">
+        <img src="img/app.svg" alt="">
+      </div>
+      <div class="app-2">
+        <a href="#" class="info">Tiempo real</a>
+        <h2>Innovación</h2>
+        <p>
+          Constantemente escalando y compitiendo con las principales empresas de Internet y cable para ofrecer lo mejor en conectividad.
+        </p>
+        <a href="#" class="btn-1">Información</a>
+      </div>    
+
+    </section>
+
+    <div class="prices-sec">      
+        <h2 class="heading-primary">OUR PRICINGS</h2>
+        <div class="plan-section">
+          <div class="plan basic">
+            <h2 class="plan-heading">Basic</h2>
+            <h3 class="plan-price"><span class="dollar">S/.</span>99</h3>
+            <ul class="plan-features">
+              <li class="plan-item">100 GB</li>
+              <li class="plan-item"> 2 Users Allowed</li>
+              <li class="plan-item"> Send up to 3GB</li>
+              <li class="plan-item"> Support</li>
+            </ul>
+            <a href="#" class="btn buy-now">Buy Now</a>
+          </div>
+       
+          <div class="plan pro">
+            <h2 class="plan-heading">Pro</h2>
+            <h3 class="plan-price"><span class="dollar">S/.</span>199</h3>
+            <ul class="plan-features">
+              <li class="plan-item">300 GB</li>
+              <li class="plan-item"> 2 Users Allowed</li>
+              <li class="plan-item"> Send up to 6GB</li>
+              <li class="plan-item"> Support</li>
+            </ul>
+            <a href="#" class="btn btn-blue">Buy Now</a>
+          </div>
+        
+          <div class="plan master">
+            <h2 class="plan-heading">Master</h2>
+            <h3 class="plan-price"><span class="dollar">S/.</span>299</h3>
+            <ul class="plan-features">
+              <li class="plan-item">600 GB</li>
+              <li class="plan-item"> 9 Users Allowed</li>
+              <li class="plan-item"> Send up to 9GB</li>
+              <li class="plan-item"> Support</li>
+            </ul>
+            <a href="#" class="btn buy-now">Buy Now</a>
+          </div>
+
+        </div>
+
+    </div>
+
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                      <img src="img/LOGOTIPO.png" alt="Logo de SLee Dw">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>SOBRE NOSOTROS</h2>
+              <p>
+Líderes en telecomunicaciones en Perú, proporcionamos servicios avanzados y conectividad confiable. </p>
+              <p>Con nuestra red de fibra óptica, llevamos el entretenimiento y la comunicación a un nivel superior.</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                <a href="https://www.facebook.com/cablesurtel" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/cablesurtel/" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://www.tiktok.com/@cablesurtel" target="_blank" class="fab fa-tiktok"></a>
+                <a href="https://api.whatsapp.com/send/?phone=51974063994&text&type=phone_number&app_absent=0" target="_blank" class="fa fa-whatsapp"></a>
+                
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2023 <b>Cable Sur</b> - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        intent="WELCOME"
+        chat-title="cable sur"
+        agent-id="d1db0dd3-035b-495a-83e8-3f2710f83391"
+        language-code="es"
+      ></df-messenger>
+
+  </body>
+</html>
