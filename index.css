@@ -357,7 +357,7 @@ header h2 {
     background-color: #151c24;
     padding: 15px 20px;
     border-radius: 25px;
-    width: 500px;
+    width: 600px;
     margin-bottom: 35px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
@@ -396,6 +396,7 @@ header h2 {
 
 .services-img img{
     width: 550px;
+    margin-left: 100px;
 }
 
 .usuarios{
@@ -506,6 +507,7 @@ header h2 {
     margin-right: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
+    color: #f6f6fe;
 }
 .plan-section .plan .plan-price{
     font-size: 4rem;
@@ -546,7 +548,7 @@ header h2 {
 
 
 .plan-section .basic{
-    background-color: #f6f6fe;
+    background-color: #494c5f;
 }
 
 .plan-section .pro{
@@ -561,7 +563,7 @@ header h2 {
 }
 
 .plan-section .master{
-    background-color: #f6f6f6;
+    background-color: #494c5f;
 }
 
 /*--------------*/
@@ -772,3 +774,4 @@ header h2 {
     }
 
 }
+
