@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/descarga.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.birthdayCard {
+    position: relative;
+    width: 600px; /* Aumentado en un 200% */
+    height: 840px; /* Aumentado en un 200% */
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(6000px); /* Aumentado en un 200% */
+    transition: 1s;
+}
+
+.birthdayCard:hover {
+    transform: perspective(6000px) rotate(5deg); /* Aumentado en un 200% */
+    box-shadow: inset 240px 48px 240px rgba(0, 0, 0, 0.2),
+        0 24px 240px rgba(0, 0, 0, 0.5); /* Aumentado en un 200% */
+}
+
+.birthdayCard:hover .cardFront {
+    transform: rotateY(-160deg);
+}
+
+.birthdayCard:hover .happy {
+    visibility: hidden;
+}
+
+.cardFront {
+    position: relative;
+    background-color: #fff;
+    width: 600px; /* Aumentado en un 200% */
+    height: 840px; /* Aumentado en un 200% */
+    overflow: hidden;
+    transform-origin: left;
+    box-shadow: inset 240px 48px 240px rgba(0, 0, 0, 0.2),
+        72px 0 120px rgba(0, 0, 0, 0.4); /* Aumentado en un 200% */
+    transition: 0.6s;
+}
+
+.happy {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    margin: 72px; /* Aumentado en un 200% */
+    background-image: linear-gradient(120deg, #ffd856 0%, #f98c6e 100%);
+    transition: 0.1s;
+}
+
+.balloons {
+    position: absolute;
+}
+
+.balloon-1,
+.balloon-2,
+.balloon-3,
+.balloon-4 {
+    position: absolute;
+    width: 204px; /* Aumentado en un 200% */
+    height: 228px; /* Aumentado en un 200% */
+    border-radius: 50%;
+}
+
+.balloon-1 {
+    background-color: rgba(255, 40, 90, 0.7);
+    left: -24px; /* Aumentado en un 200% */
+    top: 120px; /* Aumentado en un 200% */
+}
+
+.balloon-2 {
+    background-color: rgba(9, 215, 160, 0.7);
+    left: 120px; /* Aumentado en un 200% */
+    top: 48px; /* Aumentado en un 200% */
+}
+
+.balloon-3 {
+    background-color: rgba(255, 186, 26, 0.7);
+    left: 264px; /* Aumentado en un 200% */
+    top: 120px; /* Aumentado en un 200% */
+}
+
+.balloon-4 {
+    background-color: rgba(12, 122, 159, 0.7);
+    left: 408px; /* Aumentado en un 200% */
+    top: 120px; /* Aumentado en un 200% */
+}
+
+.balloon-1::before,
+.balloon-2::before,
+.balloon-3::before,
+.balloon-4::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 372px; /* Aumentado en un 200% */
+    background-color: #ffc848;
+    top: 228px; /* Aumentado en un 200% */
+    left: 103.2px; /* Aumentado en un 200% */
+}
+
+.balloon-1::after,
+.balloon-2::after,
+.balloon-3::after,
+.balloon-4::after {
+    content: "";
+    position: absolute;
+    border-right: 16.8px solid transparent; /* Aumentado en un 200% */
+    border-left: 16.8px solid transparent; /* Aumentado en un 200% */
+    top: 225.6px; /* Aumentado en un 200% */
+    left: 88.8px; /* Aumentado en un 200% */
+}
+
+.balloon-1::after {
+    border-bottom: 24px solid #ff3e6b; /* Aumentado en un 200% */
+}
+
+.balloon-2::after {
+    border-bottom: 24px solid #04b183; /* Aumentado en un 200% */
+}
+
+.balloon-3::after {
+    border-bottom: 24px solid #ffc94c; /* Aumentado en un 200% */
+}
+
+.balloon-4::after {
+    border-bottom: 24px solid #13a9bd; /* Aumentado en un 200% */
+}
+
+.cardInside {
+    position: absolute;
+    background-color: #fff;
+    width: 600px; /* Aumentado en un 200% */
+    height: 840px; /* Aumentado en un 200% */
+    z-index: -1;
+    left: 0;
+    top: 0;
+    box-shadow: inset 240px 48px 240px rgba(0, 0, 0, 0.2); /* Aumentado en un 200% */
+}
+
+p {
+    font-family: "Brush Script MT", cursive;
+    margin: 20px; /* Aumentado en un 200% */
+    color: #333;
+    font-size: 2em; /* Aumentado en un 200% */
+}
+
+.name {
+    position: absolute;
+    left: 360px; /* Aumentado en un 200% */
+    top: 480px; /* Aumentado en un 200% */
+    color: #333;
+}
+
+.back {
+    font-family: Tahoma, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 72px; /* Aumentado en un 200% */
+    outline-color: #333;
+    outline-style: dotted;
+}
